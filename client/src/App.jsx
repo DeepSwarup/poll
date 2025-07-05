@@ -12,7 +12,8 @@ function App() {
         <Route path="/" element={<Welcome />} />
         <Route path="/teacher" element={<TeacherDashboard />} />
         <Route path="/student" element={<StudentDashboard />} />
-        <Route path="/poll-history" element={<PollHistory />} />        <Route path="/student/poll" element={<PollScreen />} />
+        <Route path="/poll-history" element={<PollHistory />} />
+        <Route path="/student/poll" element={<PollScreen />} />
       </Routes>
     </Router>
   );

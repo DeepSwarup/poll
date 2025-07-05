@@ -5,10 +5,11 @@ const { Server } = require('socket.io');
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
-  cors: { origin: "http://localhost:5173" }
+//   cors: { origin: "http://localhost:5173" }
+  cors: { origin: "https://poll-puce-eta.vercel.app/" }
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = "https://poll-7z60.onrender.com/" || 3000;
 let currentPoll = null;
 let pollResponses = {}; // Map socketId to answer
 const submittedStudents = new Map(); // Map student name to submitted status
