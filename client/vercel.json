@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/teacher", "destination": "/index.html" },
+    { "source": "/student", "destination": "/index.html" },
+    { "source": "/poll-history", "destination": "/index.html" },
+    { "source": "/student/poll", "destination": "/index.html" }
+  ]
+}
