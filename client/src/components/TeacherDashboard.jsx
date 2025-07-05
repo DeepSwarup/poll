@@ -59,7 +59,7 @@ function TeacherDashboard() {
       </button>
       <PollForm />
       {poll && (
-        <div className="mt-4">
+        <div className="mt-4 mb-10">
           <PollResults poll={poll} hasSubmitted={true} />
           <button
             onClick={handleEndPoll}
